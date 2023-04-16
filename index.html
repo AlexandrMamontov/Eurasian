@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="media/media-index.css">
+  <title>Евразия</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <a href="index.html" class="header__logo">
+        <img src="img/logo.svg" class="header__img">
+      </a>
+      <nav class="nav header__nav">
+        <ul class="nav__list list-reset">
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Курорт
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Проживание
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Услуги и тарифы
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Афиша
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Для бизнеса
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Купить онлайн
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__info">
+          <h1 class="hero__title">
+            30 декабря в ЦАО "Евразия" состоится тестовое открытие 2 склона.
+          </h1>
+          <div class="hero__text">
+            К новогодним праздникам уже подготовлено 5 больших склонов и учебная трасса, а также тюбинговая горка.
+          </div>
+          <div class="hero__block">
+            <div class="hero__arrow">
+              <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 1.25L5.25 5L1.5 8.75" stroke="#52536D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span class="hero__wrap">Свернуть</span>
+            </div>
+            <ul class="hero__list list-reset">
+              <li class="hero__item">
+                <img src="img/web-camera.svg" class="hero__img">
+                <div class="hero__descr">Веб-камеры</div>
+              </li>
+              <li class="hero__item">
+                <img src="img/cableway.svg" class="hero__img">
+                <div class="hero__descr">Канатные дороги</div>
+              </li>
+              <li class="hero__item">
+                <img src="img/tickets.svg" class="hero__img">
+                <div class="hero__descr">Билеты</div>
+              </li>
+              <li class="hero__item">
+                <img src="img/map.svg" class="hero__img">
+                <div class="hero__descr">Карта</div>
+              </li>
+            </ul>
+            <div class="hero__today">
+              Сегодня
+              <span class="hero__more">sunday 15 января</span>
+            </div>
+            <div class="hero__sun">
+              <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="33" height="33" fill="url(#pattern0)"/>
+                <defs>
+                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_1_33306" transform="scale(0.01)"/>
+                </pattern>
+                <image id="image0_1_33306" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEsUlEQVR4nO2dz29URRzAvyiYIIaEggcEox7w4o9wgAY4e6BcRYKe1X+h/jj0ommMWWDn+1qy/wJED8CBG1cOXDS1ge58t922iNqqqdF2W00emXnbzfaxP+3uzPfN+36SSZruj/dmPm9mduZ9Zx6AIAiCIAiCIAiZoPRgH8TxHt+nIRiiyiVA/Scg/QVY+cD+T/AI6l8AKU6S/llc+Aa3ZdSTIEKEZqSGMAOlyeIFihBeoAjhBYoQXqAI4QWKkM4U5w5CVD4P1x8dC1ZIVHkNlB6Db58cANZEMy8BkrYFo/Q/gPR+cEKKdBGU3qgf7ycoPX4R2BLpC6kC+tdmIBQhRbpo89R8PEXvAVvUwhuAVHMqBXWlaXKx4laG3oCp8qvAmlYnPkwpSo+BouUk6bEg8jRwTN+haCt1Nf0HSB9B1sA2eVH6Q8gUIUjBUGSEIAVDk5FlKRiqjCx2isUMnesQMroJ1/QJ4ALSm8/UjCBldJLST2Yn4uegOH8GFH0BSN+BohlQ+g9biDbZv2fsa0if2/eaz/SKiVrJjYydUjbrGV6CwuJI98/MHQekSTvWSI/Mu6cl+1nzHd3A2cP19ye1N3gZ25hmynSc3WTg7GFQdL1J4G5SDRRN2+/shDknc26cmlIWoL4MilYHIGJnUrRig+uEHpm4t7deK+LhJj1ljyV0oLC4H5S+PXwZDSm37DGFFtyInwdF37uT0Uh3pKa0wkkzRW36FR1JJUl34L5k4HaSyPntfmPE/vLxLUTRKpQeHpGa4rOpwnTSmG8hyQh8EIO+eECp5ixahiVmSsO/hDhVS76GXGIm/RQt+hdAO5OZLzM/wXOHmYn1XfjYVsoo5A6kL70XPLZttsYhd/gZlcc9CrkJuSO5kcS1yfoR2IL0TVMsaz9XWaVj4Brq3xkLWXFeHj0RzZ/cZcaWO2SM0/gjTqWa8/IQIZRBIcmVPFlfWjDYKprdJmtyKOXhHenUmZGE6vivDdjyar4BuSOJreIqZBxyB+epkyk6DbmD6+QiUrWvaMegkOl3ljeo0msSY48p5zeoDDa807uI2CZFyndx+CeJpf2NgYzVrnG/+drI0rOQ3ES694qJtUVpqvhg7mOjh9G7iSWWoOs2FBb32wBoZ0Ik2LrH5Qg6ctCJK6kZ/YB2vd/gf30p+lU68DRXFo4C6lNdpygK5iexxoEMHs1tV1MrpquHOtfQmRegWD4HxbmXIReY9Xuo1+uFdLeneSOsvmIjCv/f3FcVlP7KfkdvzeX9ev/yt5P9vtgti56id/uckBwFRZ/ZUB0THZLceTT35zft30r/YF8zU+hm1ravZdHls/lZFt1y4wC9zmoJwJWFoy0iSgKU0m67Co5NApomNeStNbK4kQtmcMOcYGUEKyXLMoKT4nqLo9IQn0GV+e2aXGcgcvAMqsxKQXrH+X5T6OgZVK337N2Ca/ptYAvqT51fRZgamQ+TllIqnwBbrs6/DkhrTvebQodCGluNN1qBNbsPPGsSKR9DVH7LyfHQsRCDaaZMHk1eBQZChA6IEGag1BBeoAjhBYoQXqAI4QWKEF6gCOEFihBeoJ538gwqgdEzqARBEARBEARBECBcngLxapcr8dpYNgAAAABJRU5ErkJggg=="/>
+                </defs>
+              </svg>
+              <span class="hero__temp">-10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="centre">
+      <div class="container centre__container">
+        <h2 class="centre__title">
+          Центр активного отдыха "Евразия"
+        </h2>
+        <div class="centre__background">
+          <div class="centre__content">
+            <div class="centre__info">
+              Мы рады приветствовать любителей активного отдыха в нашем экологическом парке — самом динамично развивающемся горнолыжном центре Южного Урала!
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="container promo__container">
+        <div class="promo__block">
+          <h2 class="promo__title">
+            Акции и спец предложения
+          </h2>
+          <button class="promo__btn btn-reset">
+            Посмотреть все
+          </button>
+        </div>
+        <ul class="promo__list list-reset">
+          <li class="promo__item" style="background-image: radial-gradient(50% 50% at 25% 50%, #335378 0%, rgba(27, 45, 66, 0.1) 100%), url('img/promo-1.png');">
+            <h3 class="promo__subtitle">
+              30 декабря в ЦАО "Евразия" состоится тестовое открытие 2 склона.
+            </h3>
+            <div class="promo__text">
+              К новогодним праздникам уже подготовлено 5 больших склонов и учебная трасса, а также тюбинговая горка.
+            </div>
+          </li>
+          <li class="promo__item" style="background-image: radial-gradient(50% 50% at 25% 50%, #335378 0%, rgba(27, 45, 66, 0.1) 100%), url('img/promo-1.png');">
+            <h3 class="promo__subtitle">
+              30 декабря в ЦАО "Евразия" состоится тестовое открытие 2 склона.
+            </h3>
+            <div class="promo__text">
+              К новогодним праздникам уже подготовлено 5 больших склонов и учебная трасса, а также тюбинговая горка.
+            </div>
+          </li>
+          <li class="promo__item" style="background-image: url('img/promo-2.png');"></li>
+          <li class="promo__item" style="background-image: radial-gradient(70% 70% at 40% 20%, #335378 0%, rgba(27, 45, 66, 0.1) 100%), url('img/promo-3.png');">
+            <h3 class="promo__subtitle">
+              BBQ площадки
+            </h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="poster">
+      <div class="container poster__container">
+        <div class="poster__block">
+          <h2 class="poster__title">
+            Афиша
+          </h2>
+          <button class="poster__btn btn-reset">
+            Посмотреть все
+          </button>
+        </div>
+        <ul class="poster__list list-reset">
+          <li class="poster__item" style="background-image: url('img/poster-1.png');"></li>
+          <li class="poster__item" style="background-image: url('img/poster-2.png');"></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="container news__container">
+        <div class="news__block">
+          <h2 class="news__title">
+            Новости
+          </h2>
+          <button class="news__btn btn-reset">
+            Посмотреть все
+          </button>
+        </div>
+        <ul class="news__list list-reset">
+          <li class="news__item" style="background-image: radial-gradient(70% 70% at 40% 20%, #335378 0%, rgba(27, 45, 66, 0.1) 100%), url('img/news-1.png');">
+            <h3 class="news__subtitle">
+              Состоялось первенство России по сноуборду в дисциплине Big-Air
+            </h3>
+          </li>
+          <li class="news__item" style="background-image: radial-gradient(70% 70% at 40% 20%, #335378 0%, rgba(27, 45, 66, 0.1) 100%), url('img/news-2.png');">
+            <h3 class="news__subtitle">
+              Всероссийские соревнования по сноуборду в городе Куса
+            </h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="media">
+      <ul class="media__list list-reset">
+        <li class="media__item">
+          <a href="#" class="media__link">
+            <img src="img/vk.svg" class="media__img">
+          </a>
+        </li>
+        <li class="media__item">
+          <a href="#" class="media__link">
+            <img src="img/youtube.svg" class="media__img">
+          </a>
+        </li>
+        <li class="media__item">
+          <a href="#" class="media__link">
+            <img src="img/yandex.svg" class="media__img">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__top">
+        <a href="index.html" class="footer__logo">
+          <img src="img/logo.svg" class="footer__logo-img">
+        </a>
+        <div class="footer__contact">
+          <span>Схема проезда</span>
+          <ul class="footer__phone-list list-reset">
+            <li class="footer__phone-item">
+              <img src="img/call.svg" class="footer__img">
+              <div class="footer__number">+79227288288</div>
+            </li>
+            <li class="footer__phone-item">
+              <img src="img/call.svg" class="footer__img">
+              <div class="footer__number">+73513790979</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__left">
+          <ul class="footer__list list-reset">
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Услуги
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Трассы
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Кафе
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Гостиница
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                О комплексе
+              </a>
+            </li>
+          </ul>
+          <ul class="footer__list list-reset">
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Новости
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Тарифы
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Прокаты
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Акции и туры
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Цены на услуги
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Схема проезда
+              </a>
+            </li>
+          </ul>
+          <ul class="footer__list list-reset">
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Туры
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Проживание
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Забронировать номер
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Детям
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Акции
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                Веб-камеры
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__right">
+          <div class="footer__work">
+            <div class="footer__mode">
+              Режим работы:
+            </div>
+            <div class="footer__time">
+              Пн-пт: 10.00-21.00
+            </div>
+            <div class="footer__time">
+              Сб-вс 9.00-21.00
+            </div>
+          </div>
+          <div class="footer__contacts">
+            <div class="footer__mode">
+              Контакты
+            </div>
+            <div class="footer__text">
+              Всесезонный центр спорта и отдыха - находится в рекреационной зоне на границе с заповедниками «Таганай» и «Зюраткуль» всего в 30 минутах езды от Златоуста, и в 1,5 часах от Челябинска.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
