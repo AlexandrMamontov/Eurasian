@@ -59,10 +59,48 @@ body {
 }
 
 .nav__item {
+  position: relative;
+}
+
+.nav__item:hover .nav__listing {
+  opacity: 1;
+}
+
+.nav__link {
+  cursor: pointer;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #000000;
+  transition: color .3s ease-in-out
+}
+
+.nav__link:focus {
+  outline-offset: 3px;
+  outline: 1px solid #0093DD;
+}
+
+.nav__link:hover {
+  color: #0093DD;
+}
+
+.nav__link:active {
+  outline: none;
+}
+
+.nav__listing {
+  position: absolute;
+  opacity: 0;
+  z-index: 1000;
+  transition: opacity .3s ease-in-out;
+}
+
+.nav__items {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  transition: color .3s ease-in-out
 }
 
 /* hero */
@@ -298,6 +336,20 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+
+.promo__btn:focus {
+  outline: 1px solid #0093DD;
+}
+
+.promo__btn:hover {
+  opacity: 0.7;
+}
+
+.promo__btn:active {
+  opacity: 1;
 }
 
 .promo__list {
@@ -373,6 +425,19 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
+  transition: opacity .3s ease-in-out;
+}
+
+.poster__btn:focus {
+  outline: 1px solid #0093DD;
+}
+
+.poster__btn:hover {
+  opacity: 0.7;
+}
+
+.poster__btn:active {
+  opacity: 1;
 }
 
 .poster__list {
@@ -431,6 +496,19 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
+  transition: opacity .3s ease-in-out;
+}
+
+.news__btn:focus {
+  outline: 1px solid #0093DD;
+}
+
+.news__btn:hover {
+  opacity: 0.7;
+}
+
+.news__btn:active {
+  opacity: 1;
 }
 
 .news__list {
