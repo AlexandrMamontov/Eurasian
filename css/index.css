@@ -60,13 +60,17 @@ body {
 
 .nav__item {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav__item:hover .nav__listing {
-  opacity: 1;
+  display: block;
 }
 
 .nav__link {
+  z-index: 10000;
   cursor: pointer;
   font-weight: 400;
   font-size: 18px;
@@ -89,10 +93,20 @@ body {
 }
 
 .nav__listing {
+  width: 200px;
+  padding: 40px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
-  opacity: 0;
+  display: none;
   z-index: 1000;
-  transition: opacity .3s ease-in-out;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.nav__items:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .nav__items {
@@ -100,6 +114,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #000000;
+  text-align: center;
   transition: color .3s ease-in-out
 }
 
