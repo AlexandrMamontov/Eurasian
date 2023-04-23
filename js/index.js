@@ -1,3 +1,4 @@
+//  hero-wrapper
 document.addEventListener('DOMContentLoaded', (e) => {
   document.querySelector('.hero__arrow').addEventListener('click', (e) => {
     document.querySelector('.hero__arrow').classList.toggle('hero__arrow--active')
@@ -13,7 +14,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
   })
 })
 
-
+// hero-burger
 let burger = document.querySelector('.header__burger');
 let menu = document.querySelector('.header__nav');
 let menuLinks = menu.querySelectorAll('.nav__link')
