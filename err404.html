@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error 404</title>
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin: 0 auto;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: url('img/404.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .error {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .error__title {
+      margin: 0;
+      font-size: 200px;
+      color: #FFFFFF;
+    }
+
+    .error__index {
+      text-decoration: none;
+      font-size: 50px;
+      color: #0093DD;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="error">
+    <h1 class="error__title">404</h1>
+    <a href="index.html" class="error__index">ВЕРНУТЬСЯ НА ГЛАВНУЮ</a>
+  </div>
+</body>
+</html>
