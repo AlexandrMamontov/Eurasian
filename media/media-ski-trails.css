@@ -1,0 +1,566 @@
+@media (max-width: 1366px) {
+  .header__container {
+    padding: 20px 60px;
+  }
+
+  .hero__container {
+    padding: 0 60px;
+  }
+
+  .trails__container {
+    padding: 0 60px;
+  }
+
+  .footer {
+    padding: 20px 60px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .trails__mark {
+    flex-direction: column;
+    justify-content: unset;
+  }
+
+  .mark__left {
+    margin-right: unset;
+    margin-bottom: 30px;
+  }
+
+  .mark__title {
+    text-align: center;
+  }
+
+  .mark__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trails__descr {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header__container {
+    flex-direction: column;
+  }
+
+  .header__logo {
+    margin-bottom: 20px;
+  }
+
+  .hero__title {
+    font-size: 30px;
+  }
+
+  .hero__text {
+    font-size: 18px;
+  }
+
+  .trails__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .trails__map {
+    justify-content: unset;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trails__title {
+    text-align: center;
+  }
+
+  .map__left {
+    margin-right: unset;
+    margin-bottom: 30px;
+  }
+
+  .map__title {
+    text-align: center;
+  }
+
+  .map__levels {
+    justify-content: center;
+  }
+
+  .trails__item:last-child {
+    flex-direction: column-reverse;
+  }
+
+  .trails__scheme {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__container {
+    flex-direction: unset;
+  }
+
+  .header__logo {
+    margin-bottom: unset;
+    width: 170px;
+  }
+
+  .header__burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    z-index: 1001;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(83.85% 100% at 50% 0%, #54B7E7 0%, #0093DD 100%);
+    box-shadow: 0px 20px 20px -10px rgba(0, 147, 221, 0.3), inset 0px -10px 10px rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transition: transform .3s ease-in-out;
+  }
+
+  .header__burger--active {
+    transform: rotate(90deg) translateY(65px);
+  }
+
+  .header__nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    box-shadow: 0 0 5px #888;
+    background-image: url('../img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: auto;
+    visibility: hidden;
+    transform: translateY(-120%);
+    transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+  .nav__list {
+    padding: 100px 40px 40px;
+    width: 300px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: unset;
+    background: rgba(0, 120, 201, 0.7);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .header__nav--active {
+    visibility: visible;
+    transform: none;
+  }
+
+  .stop-scroll {
+    overflow: hidden;
+  }
+
+  .nav__listing {
+    width: 220px;
+    padding: 10px;
+    background: rgb(0, 120, 201);
+  }
+
+  .nav__link {
+    z-index: unset;
+  }
+
+  .nav__link:focus {
+    outline: 1px solid #FFFFFF;
+  }
+
+  .nav__link:hover {
+    color: #FFFFFF;
+  }
+
+  .hero__title {
+    width: 350px;
+    font-size: 25px;
+  }
+
+  .hero__text {
+    width: 350px;
+    font-size: 15px;
+  }
+
+  .lift__item {
+    height: 200px;
+  }
+
+  .rules__btn {
+    padding: 8px 25px;
+    font-size: 10px;
+  }
+
+  .footer__top {
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    width: 170px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__container {
+    padding: 20px 40px;
+  }
+
+  .hero__container {
+    padding: 0 40px;
+  }
+
+  .hero__arrow {
+    display: none;
+  }
+
+  .hero__block {
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+  }
+
+  .hero__descr {
+    display: none;
+  }
+
+  .hero__more {
+    display: none;
+  }
+
+  .trails__container {
+    padding: 0 40px;
+  }
+
+  .trails__title {
+    font-size: 25px;
+  }
+
+  .mark__text {
+    width: 320px;
+  }
+
+  .lift__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .lift__item:not(:last-child) {
+    margin-right: unset;
+    margin-bottom: 25px;
+  }
+
+  .lift__item {
+    width: 400px;
+    height: 280px;
+  }
+
+  .rules__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .rules__item:not(:last-child) {
+    margin-right: unset;
+    margin-bottom: 20px;
+  }
+
+  .rules__item {
+    width: 400px;
+  }
+
+  .rules__btn {
+    font-size: 16px;
+  }
+
+  .footer {
+    padding: 20px 40px;
+  }
+}
+
+@media (max-width: 660px) {
+  .hero__title {
+    width: 300px;
+    font-size: 20px;
+  }
+
+  .hero__text {
+    width: 300px;
+    font-size: 13px;
+  }
+
+  .hero__info {
+    padding: 30px;
+    height: 340px;
+  }
+
+  .hero__block {
+    min-height: 270px;
+  }
+
+  .trails__title {
+    font-size: 20px;
+  }
+
+  .media__item {
+    width: 55px;
+  }
+
+  .footer__contact {
+    flex-direction: column;
+  }
+
+  .footer__contact span {
+    margin-right: unset;
+    font-size: 15px;
+  }
+
+  .footer__number {
+    font-size: 15px;
+  }
+
+  .footer__time {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .map__img {
+    width: 30px;
+  }
+
+  .map__track {
+    width: 70px;
+    font-size: 16px;
+  }
+
+  .map__metr {
+    width: 110px;
+    font-size: 16px;
+  }
+
+  .map__status {
+    width: 100px;
+    font-size: 16px;
+  }
+
+  .map__text {
+    width: 190px;
+    font-size: 16px;
+  }
+
+  .mark__block {
+    flex-direction: column;
+  }
+
+  .mark__download-1 {
+    margin-right: unset;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .header__logo {
+    width: 130px;
+  }
+
+  .hero__info {
+    padding: 20px;
+  }
+
+  .hero__title {
+    width: 250px;
+  }
+
+  .hero__text {
+    width: 250px;
+  }
+
+  .map__scheme {
+    width: 320px;
+  }
+
+  .map__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .map__levels {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .map__level:not(:last-child) {
+    margin-right: unset;
+  }
+
+  .map__level:nth-child(-n + 2) {
+    margin-bottom: 10px;
+  }
+
+  .map__level {
+    width: calc((100% - 10px) / 2);
+    background-size: contain;
+  }
+
+  .mark__status {
+    width: 100px;
+    font-size: 16px;
+  }
+
+  .mark__text {
+    font-size: 12px;
+  }
+
+  .trails__track {
+    padding-left: unset;
+    text-align: center;
+  }
+
+  .trails__descr {
+    padding-left: unset;
+    font-size: 12px;
+  }
+
+  .lift__block {
+    padding: 30px;
+    font-size: 12px;
+  }
+
+  .footer__logo {
+    width: 130px;
+  }
+}
+
+@media (max-width: 550px) {
+  .mark__item {
+    flex-direction: column;
+  }
+
+  .mark__status {
+    margin-right: unset;
+    margin-bottom: 10px;
+  }
+
+  .mark__text {
+    text-align: center;
+  }
+
+  .mark__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 460px) {
+  .nav__list {
+    width: 100%;
+    background: rgba(0, 120, 201, 0.5);
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+  }
+
+  .header__container {
+    padding: 20px;
+  }
+
+  .hero__container {
+    padding: 0 20px;
+  }
+
+  .hero__info {
+    height: 310px;
+  }
+
+  .hero__title {
+    width: 200px;
+  }
+
+  .hero__text {
+    width: 200px;
+  }
+
+  .trails__container {
+    padding: 0 20px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footer__phone-list {
+    flex-direction: column;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__work {
+    margin-bottom: 10px;
+    margin-right: unset;
+    text-align: center;
+  }
+
+  .footer__contacts {
+    text-align: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .header__container {
+    padding: 10px;
+  }
+
+  .hero__container {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    margin-bottom: 30px;
+  }
+
+  .hero__info {
+    width: 300px;
+  }
+
+  .hero__title {
+    width: 190px;
+    font-size: 16px;
+  }
+
+  .hero__text {
+    width: 190px;
+    font-size: 12px;
+  }
+
+  .trails__container {
+    padding: 0 10px;
+  }
+
+  .trails__title {
+    font-size: 15px;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+}
