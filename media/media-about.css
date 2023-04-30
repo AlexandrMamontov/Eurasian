@@ -51,6 +51,10 @@
 }
 
 @media (max-width: 1100px) {
+  .hero__info {
+    background-position: right;
+  }
+
   .about__block {
     min-height: unset;
   }
