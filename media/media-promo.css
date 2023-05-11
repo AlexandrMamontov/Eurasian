@@ -28,11 +28,143 @@
   .hero__title {
     font-size: 30px;
   }
+
+  .promo__item {
+    height: 490px;
+  }
+
+  .promo__subtitle {
+    font-size: 36px;
+  }
+
+  .promo__descr {
+    margin-bottom: 40px;
+  }
+
+  .promo__days {
+    width: 190px;
+    font-size: 20px;
+  }
+
+  .second__text {
+    font-size: 20px;
+  }
+
+  .second__days {
+    font-size: 20px;
+  }
+
+  .third__days {
+    font-size: 20px;
+  }
+
+  .third__time {
+    font-size: 20px;
+  }
+
+  .third__promo {
+    font-size: 50px;
+  }
+
+  .fourth__free {
+    font-size: 50px;
+  }
+
+  .fifth__block {
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+
+  .fifth__wrapper:nth-child(1) {
+    margin-right: unset;
+    margin-bottom: 20px;
+  }
+
+  .fifth__text  {
+    font-size: 20px;
+  }
+
+  .fifth__time  {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1100px) {
   .hero__info {
     background-position: right;
+  }
+}
+
+@media (max-width: 1024px) {
+  .promo__title {
+    text-align: center;
+  }
+
+  .promo__item {
+    height: 450px;
+  }
+
+  .promo__subtitle {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .promo__descr {
+    margin-bottom: 10px;
+  }
+
+  .promo__block {
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+
+  .promo__left {
+    margin-right: unset;
+  }
+
+  .first__city {
+    font-size: 20px;
+  }
+
+  .second__text {
+    width: 250px;
+    font-size: 15px;
+  }
+
+  .second__price span {
+    font-size: 40px;
+  }
+
+  .second__price {
+    font-size: 20px;
+  }
+
+  .third__promo {
+    font-size: 40px;
+  }
+
+  .fourth__free {
+    font-size: 40px;
+  }
+
+  .fourth__text {
+    font-size: 20px;
+  }
+
+  .fifth__price span {
+    font-size: 40px;
+  }
+
+  .fifth__price {
+    font-size: 20px;
+  }
+
+  .sixth__number {
+    font-size: 40px;
+  }
+
+  .seventh__text {
+    font-size: 20px;
   }
 }
 
@@ -140,6 +272,27 @@
   }
 }
 
+@media (max-width: 850px) {
+  .promo__list {
+    flex-wrap: unset;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .promo__item:not(:nth-child(2n)) {
+    margin-right: unset;
+  }
+
+  .promo__item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .promo__item {
+    margin-bottom: unset;
+    width: 500px;
+  }
+}
+
 @media (max-width: 768px) {
   .header__container {
     padding: 20px 40px;
@@ -226,6 +379,15 @@
     width: 250px;
   }
 
+  .promo__title {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+
+  .promo__item {
+    width: 360px;
+  }
+
   .footer__logo {
     width: 130px;
   }
@@ -257,6 +419,10 @@
 
   .promo__container {
     padding: 0 20px;
+  }
+
+  .promo__item {
+    width: 320px;
   }
 
   .footer {

@@ -305,6 +305,7 @@ body {
   height: 560px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -422,6 +423,181 @@ body {
   line-height: 154.5%;
   letter-spacing: -0.04em;
   text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.first__city {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.first__time {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.second__text {
+  margin-bottom: 30px;
+  width: 350px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.second__price {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.second__price span {
+  font-weight: 900;
+  font-size: 62px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.second__price span:nth-child(2) {
+  margin-left: 10px;
+}
+
+.second__days {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.third__days {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.third__time {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.third__promo {
+  margin-bottom: 15px;
+  font-weight: 900;
+  font-size: 62px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.fourth__text {
+  margin-bottom: 15px;
+  width: 200px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.fourth__free {
+  font-weight: 900;
+  font-size: 62px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.fifth__block {
+  margin-bottom: 60px;
+  display: flex;
+}
+
+.fifth__wrapper:nth-child(1) {
+  margin-right: 30px;
+}
+
+.fifth__text {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.fifth__time {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.fifth__price {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.fifth__price span {
+  margin: 0 5px;
+  font-weight: 900;
+  font-size: 62px;
+  text-transform: uppercase;
+}
+
+.sixth__text {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.sixth__number {
+  font-weight: 900;
+  font-size: 62px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.seventh__text {
+  width: 200px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
   color: #FFFFFF;
 }
 
