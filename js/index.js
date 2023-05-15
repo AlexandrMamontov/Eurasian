@@ -24,7 +24,7 @@ burger.addEventListener('click',
     burger.classList.toggle('header__burger--active');
     menu.classList.toggle('header__nav--active');
     document.body.classList.toggle('stop-scroll');
-})
+  })
 
 menuLinks.forEach(function (el) {
   el.addEventListener('click', function () {
@@ -33,3 +33,5 @@ menuLinks.forEach(function (el) {
     document.body.classList.remove('stop-scroll');
   })
 })
+
+// news-pagination

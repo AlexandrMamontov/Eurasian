@@ -7,8 +7,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="icon" href="img/favicon.svg" type="image/x-icon">
   <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/about.css">
-  <link rel="stylesheet" href="../media/media-about.css">
+  <link rel="stylesheet" href="../css/news.css">
+  <link rel="stylesheet" href="../media/media-news.css">
   <title>О курорте</title>
 </head>
 <body>
@@ -180,11 +180,8 @@
       <div class="container hero__container">
         <div class="hero__info">
           <h1 class="hero__title">
-            О курорте
+            Новости
           </h1>
-          <div class="hero__text">
-            Мы рады приветствовать любителей активного отдыха в горнолыжном курорте “Евразия”, в одном из наиболее динамично развивающихся горнолыжных центров Южного Урала.
-          </div>
           <div class="hero__block">
             <div class="hero__arrow">
               <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -239,36 +236,93 @@
       </div>
     </section>
 
-    <section class="about">
-      <div class="container about__container">
-        <ul class="about__list list-reset">
-          <li class="about__item" style="background-image: url('../img/about-img-1.png');"></li>
-          <li class="about__item" style="background-image: url('../img/about-img-2.png');"></li>
+    <section class="news">
+      <div class="container news__container">
+        <ul class="news__list list-reset" data-current-page="1" id="list">
+          <li class="news__item">
+            <img src="../img/newss-1.png" class="news__img">
+            <div class="news__date">29 Января 2023</div>
+            <div class="news__text">
+              <button type="button" onclick="window.news1.showModal();" class="news__btn btn-reset"></button>
+              В ЦАО "Евразия" состоялось Первенство Челябинской области и УрФО по горнолыжному спорту сезона 2022-2023
+            </div>
+            <dialog id="news1">
+              <button type="button" onclick="window.news1.close();" class="news__close btn-reset"></button>
+              В период с 23 по 28 января 2023 года в городе Куса (Челябинская область) в ЦАО «Евразия» состоялось Первенство Уральского Федерального округа и Первенство Челябинской области по горнолыжному спорту в дисциплинах слалом и слалом-гигант.
+            </dialog>
+          </li>
+          <li class="news__item">
+            <img src="../img/newss-2.png" class="news__img">
+            <div class="news__date">18 Января 2023</div>
+            <div class="news__text">
+              <button type="button" onclick="window.news2.showModal();" class="news__btn btn-reset"></button>
+              В ЦАО "Евразия" состоялось Первенство России по сноуборду в дисциплине Big-Air
+            </div>
+            <dialog id="news2">
+              <button type="button" onclick="window.news2.close();" class="news__close btn-reset"></button>
+              С 12 по 16 января 2023 в ЦАО "Евразия" успешно состоялось Первенство России по сноуборду в дисциплине Big-Air. Данное мероприятие проводилось в Кусе впервые, а подготовка к этому мероприятию началась еще в июле. Несмотря на вызов природы, мероприятие смогли провести на высоком уровне.
+            </dialog>
+          </li>
+          <li class="news__item">
+            <img src="../img/newss-3.png" class="news__img">
+            <div class="news__date">17 Января 2023</div>
+            <div class="news__text">
+              <button type="button" onclick="window.news3.showModal();" class="news__btn btn-reset"></button>
+              Всероссийские соревнования и Первенство города Куса по сноуборду в дисциплинах PSL и PGS в ЦАО "Евразия" 8-11 февраля 2023
+            </div>
+            <dialog id="news3">
+              <button type="button" onclick="window.news3.close();" class="news__close btn-reset"></button>
+              Региональное отделение Челябинской области «Федерация сноуборда России» и Центр активного отдыха «Евразия» приглашают Вас принять участие во Всероссийских соревнованиях и Первенстве города Куса по сноуборду в дисциплинах: PGS и PSL.
+            </dialog>
+          </li>
+          <li class="news__item">
+            <img src="../img/newss-4.png" class="news__img">
+            <div class="news__date">17 Января 2023</div>
+            <div class="news__text">
+              <button type="button" onclick="window.news4.showModal();" class="news__btn btn-reset"></button>
+              В ЦАО "Евразия" состоится Чемпионат и Первенство Челябинской области по горнолыжному спорту
+            </div>
+            <dialog id="news4">
+              <button type="button" onclick="window.news4.close();" class="news__close btn-reset"></button>
+              С 23 января по 28 января 2023 года, на территории ЦАО "Евразия" состоится Чемпионат и Первенство Челябинской области по горнолыжному спорту.
+            </dialog>
+          </li>
+          <li class="news__item">
+            <img src="../img/newss-5.png" class="news__img">
+            <div class="news__date">16 Января 2023</div>
+            <div class="news__text">
+              <button type="button" onclick="window.news5.showModal();" class="news__btn btn-reset"></button>
+              "Кубок Уральских гор 2023" в ЦАО "Евразия"
+            </div>
+            <dialog id="news5">
+              <button type="button" onclick="window.news5.close();" class="news__close btn-reset"></button>
+              С 17 по 20 января на территории ЦАО "Евразия" состоится Кубок Уральских гор по горнолыжному спорту среди следующих возрастных категорий:
+              <ul class="list-reset news__more">
+                <li>
+                  - юноши, девушки 2007 – 2008г.р.
+                </li>
+                <li>
+                  - мальчики, девочки 2009– 2010г.р.
+                </li>
+                <li>
+                  - мальчики, девочки 2011-2012 г.р.
+                </li>
+              </ul>
+            </dialog>
+          </li>
+          <li class="news__item">
+            <img src="../img/newss-6.png" class="news__img">
+            <div class="news__date">28 Декабря 2022</div>
+            <div class="news__text">
+              <button type="button" onclick="window.news6.showModal();" class="news__btn btn-reset"></button>
+              30 декабря открытие 2 склона! Какие еще трассы будут работать с 30 декабря?
+            </div>
+            <dialog id="news6">
+              <button type="button" onclick="window.news6.close();" class="news__close btn-reset"></button>
+              30 декабря в ЦАО "Евразия" состоится тестовое открытие 2 склона. К новогодним праздникам уже подготовлено 5 больших склонов и учебная трасса, а также тюбинговая горка.
+            </dialog>
+          </li>
         </ul>
-        <h2 class="about__title">
-          Ежегодно центр расширяет инфраструктуру, применяет современное оборудование и технологии, предоставляет новые услуги.
-        </h2>
-        <div class="about__block">
-          <img src="../img/about-svg.svg" class="about__img">
-          <div class="about__text">
-            Всесезонный центр спорта и отдыха - находится в рекреационной зоне на границе с заповедниками «Таганай» и «Зюраткуль» всего в 30 минутах езды от Златоуста, и в 1,5 часах от Челябинска. Комплекс работает 12 месяцев в году, предоставляя уникальные возможности для массовых занятий спортом и современного отдыха на природе.
-          </div>
-        </div>
-        <div class="about__info">
-          <div class="about__left"></div>
-          <div class="about__right">
-            <div class="about__descr">
-              Горнолыжный центр «Евразия» предлагает условия для активного отдыха и занятий спортом круглый год. Уральская природа, чистый воздух и современные технологии составляют гармоничный союз, создавая каждый раз новые ощущения от отдыха. Проведение семинаров, тренингов, конференций – рано или поздно у каждой развивающейся современной компании возникает необходимость в организации таких мероприятий. И сразу встает вопрос определения подходящего помещения, сочетающего достойный уровень и приемлемые цены.
-            </div>
-            <div class="about__descr">
-              ЦАО «Евразия» рад предложить клиентам все условия для проведения деловых встреч. Отличное комфортное помещение, зал вместимостью до 250 человек, современное оборудование и разумные цены отличают нас от большинства предложений на рынке. Кроме того, в «Евразии» вас ждет несколько вариантов питания: от ресторанного угощения до обедов в режиме фаст-фуд. К услугам гостей также новая гостиница на 140 мест (70 уютных двухместных номеров). Выезд в «Евразию» – это отличный способ обеспечить высокий уровень любого мероприятия, порадовать партнеров и сотрудников достойной организацией, а, главное – отвлечься от городской суеты и сосредоточиться на теме деловой встречи.
-            </div>
-          </div>
-        </div>
-        <div class="about__mail">
-          <span>Ждем ваши запросы</span>
-          <span>на электронный ящик mail@euroasia.su</span>
-        </div>
       </div>
     </section>
 
