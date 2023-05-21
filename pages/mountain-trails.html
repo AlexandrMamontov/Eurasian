@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/mountain-trails.css">
+  <link rel="stylesheet" href="../media/media-mountain-trails.css">
+  <title>Горные тропы</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <a href="../index.html" class="header__logo">
+        <img src="../img/logo.svg" class="header__img">
+      </a>
+      <nav class="nav header__nav">
+        <ul class="nav__list list-reset">
+          <li class="nav__item">
+            <a class="nav__link">
+              Услуги и тарифы
+            </a>
+            <ul class="nav__listing list-reset">
+              <li class="nav__items">
+                <a href="../pages/promo.html" class="nav__link">
+                  Туры и акции
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/cafe-bar.html" class="nav__link">
+                  Кафе-ресторан и гриль-бар
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/cable-car-rates.html" class="nav__link">
+                  Тарифы канатных дорог
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/tubing.html" class="nav__link">
+                  Тюбинг
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/bbq.html" class="nav__link">
+                  BBQ площадки
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link">
+              Курорт
+            </a>
+            <ul class="nav__listing list-reset">
+              <li class="nav__items">
+                <a href="../pages/ski-trails.html" class="nav__link">
+                  Горнолыжные трассы
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/mountain-trails.html" class="nav__link">
+                  Горные тропы
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/about.html" class="nav__link">
+                  О курорте
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/news.html" class="nav__link">
+                  Новости
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/contacts.html" class="nav__link">
+                  Контакты
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/job.html" class="nav__link">
+                  Вакансии
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/documents.html" class="nav__link">
+                  Документы
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link">
+              Для бизнеса
+            </a>
+            <ul class="nav__listing list-reset">
+              <li class="nav__items">
+                <a href="../pages/advertising-opportunities.html" class="nav__link">
+                  Рекламные возможности
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/ business-meetings-trainings.html" class="nav__link">
+                  Деловые встречи и бизнес-тренинги
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/programs-banquets.html" class="nav__link">
+                  Корпоративные программа и баркеты
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/joint-activities.html" class="nav__link">
+                  Совместные мероприятия
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/travel-agencies.html" class="nav__link">
+                  Туристические агенства
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link">
+              Проживание
+            </a>
+            <ul class="nav__listing list-reset">
+              <li class="nav__items">
+                <a href="../pages/all-hotels.html" class="nav__link">
+                  Все отели
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/mountain-corps.html" class="nav__link">
+                  Корпус "Горный"
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/guest-house.html" class="nav__link">
+                  Гостевой домик
+                </a>
+              </li>
+              <li class="nav__items">
+                <a href="../pages/city-corps.html" class="nav__link">
+                  Корпус "Город"
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="../err404.html" class="nav__link">
+              Купить онлайн
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__burger btn-reset">
+        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.44444 9.20001C1.03519 9.20001 0.692371 9.07564 0.416 8.82691C0.138667 8.57731 0 8.26834 0 7.90001C0 7.53167 0.138667 7.22271 0.416 6.97311C0.692371 6.72437 1.03519 6.60001 1.44444 6.60001H16.5556C16.9648 6.60001 17.3076 6.72437 17.584 6.97311C17.8613 7.22271 18 7.53167 18 7.90001C18 8.26834 17.8613 8.57731 17.584 8.82691C17.3076 9.07564 16.9648 9.20001 16.5556 9.20001H1.44444Z" fill="white"/>
+          <path d="M1.44444 2.6C1.03519 2.6 0.692371 2.47563 0.416 2.2269C0.138667 1.9773 0 1.66833 0 1.3C0 0.931667 0.138667 0.6227 0.416 0.3731C0.692371 0.124367 1.03519 0 1.44444 0H16.5556C16.9648 0 17.3076 0.124367 17.584 0.3731C17.8613 0.6227 18 0.931667 18 1.3C18 1.66833 17.8613 1.9773 17.584 2.2269C17.3076 2.47563 16.9648 2.6 16.5556 2.6H1.44444Z" fill="white"/>
+          <path d="M1.44444 15.8C1.03519 15.8 0.692371 15.6756 0.416 15.4269C0.138667 15.1773 0 14.8683 0 14.5C0 14.1317 0.138667 13.8227 0.416 13.5731C0.692371 13.3244 1.03519 13.2 1.44444 13.2H16.5556C16.9648 13.2 17.3076 13.3244 17.584 13.5731C17.8613 13.8227 18 14.1317 18 14.5C18 14.8683 17.8613 15.1773 17.584 15.4269C17.3076 15.6756 16.9648 15.8 16.5556 15.8H1.44444Z" fill="white"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__info">
+          <h1 class="hero__title">
+            Горные тропы
+          </h1>
+          <div class="hero__block">
+            <div class="hero__arrow">
+              <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 1.25L5.25 5L1.5 8.75" stroke="#52536D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span class="hero__wrap">Свернуть</span>
+            </div>
+            <ul class="hero__list list-reset">
+              <li class="hero__item">
+                <a href="" class="hero__ref">
+                  <img src="../img/web-camera.svg" class="hero__img">
+                  <div class="hero__descr">Веб-камеры</div>
+                </a>
+              </li>
+              <li class="hero__item">
+                <a href="" class="hero__ref">
+                  <img src="../img/cableway.svg" class="hero__img">
+                  <div class="hero__descr">Канатные дороги</div>
+                </a>
+              </li>
+              <li class="hero__item">
+                <a href="" class="hero__ref">
+                  <img src="../img/tickets.svg" class="hero__img">
+                  <div class="hero__descr">Билеты</div>
+                </a>
+              </li>
+              <li class="hero__item">
+                <a href="" class="hero__ref">
+                  <img src="../img/map.svg" class="hero__img">
+                  <div class="hero__descr">Карта</div>
+                </a>
+              </li>
+            </ul>
+            <div class="hero__today">
+              Сегодня
+              <span class="hero__more">sunday 15 января</span>
+            </div>
+            <div class="hero__sun">
+              <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="33" height="33" fill="url(#pattern0)"/>
+                <defs>
+                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_1_33306" transform="scale(0.01)"/>
+                </pattern>
+                <image id="image0_1_33306" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEsUlEQVR4nO2dz29URRzAvyiYIIaEggcEox7w4o9wgAY4e6BcRYKe1X+h/jj0ommMWWDn+1qy/wJED8CBG1cOXDS1ge58t922iNqqqdF2W00emXnbzfaxP+3uzPfN+36SSZruj/dmPm9mduZ9Zx6AIAiCIAiCIAiZoPRgH8TxHt+nIRiiyiVA/Scg/QVY+cD+T/AI6l8AKU6S/llc+Aa3ZdSTIEKEZqSGMAOlyeIFihBeoAjhBYoQXqAI4QWKkM4U5w5CVD4P1x8dC1ZIVHkNlB6Db58cANZEMy8BkrYFo/Q/gPR+cEKKdBGU3qgf7ycoPX4R2BLpC6kC+tdmIBQhRbpo89R8PEXvAVvUwhuAVHMqBXWlaXKx4laG3oCp8qvAmlYnPkwpSo+BouUk6bEg8jRwTN+haCt1Nf0HSB9B1sA2eVH6Q8gUIUjBUGSEIAVDk5FlKRiqjCx2isUMnesQMroJ1/QJ4ALSm8/UjCBldJLST2Yn4uegOH8GFH0BSN+BohlQ+g9biDbZv2fsa0if2/eaz/SKiVrJjYydUjbrGV6CwuJI98/MHQekSTvWSI/Mu6cl+1nzHd3A2cP19ye1N3gZ25hmynSc3WTg7GFQdL1J4G5SDRRN2+/shDknc26cmlIWoL4MilYHIGJnUrRig+uEHpm4t7deK+LhJj1ljyV0oLC4H5S+PXwZDSm37DGFFtyInwdF37uT0Uh3pKa0wkkzRW36FR1JJUl34L5k4HaSyPntfmPE/vLxLUTRKpQeHpGa4rOpwnTSmG8hyQh8EIO+eECp5ixahiVmSsO/hDhVS76GXGIm/RQt+hdAO5OZLzM/wXOHmYn1XfjYVsoo5A6kL70XPLZttsYhd/gZlcc9CrkJuSO5kcS1yfoR2IL0TVMsaz9XWaVj4Brq3xkLWXFeHj0RzZ/cZcaWO2SM0/gjTqWa8/IQIZRBIcmVPFlfWjDYKprdJmtyKOXhHenUmZGE6vivDdjyar4BuSOJreIqZBxyB+epkyk6DbmD6+QiUrWvaMegkOl3ljeo0msSY48p5zeoDDa807uI2CZFyndx+CeJpf2NgYzVrnG/+drI0rOQ3ES694qJtUVpqvhg7mOjh9G7iSWWoOs2FBb32wBoZ0Ik2LrH5Qg6ctCJK6kZ/YB2vd/gf30p+lU68DRXFo4C6lNdpygK5iexxoEMHs1tV1MrpquHOtfQmRegWD4HxbmXIReY9Xuo1+uFdLeneSOsvmIjCv/f3FcVlP7KfkdvzeX9ev/yt5P9vtgti56id/uckBwFRZ/ZUB0THZLceTT35zft30r/YF8zU+hm1ravZdHls/lZFt1y4wC9zmoJwJWFoy0iSgKU0m67Co5NApomNeStNbK4kQtmcMOcYGUEKyXLMoKT4nqLo9IQn0GV+e2aXGcgcvAMqsxKQXrH+X5T6OgZVK337N2Ca/ptYAvqT51fRZgamQ+TllIqnwBbrs6/DkhrTvebQodCGluNN1qBNbsPPGsSKR9DVH7LyfHQsRCDaaZMHk1eBQZChA6IEGag1BBeoAjhBYoQXqAI4QWKEF6gCOEFihBeoJ538gwqgdEzqARBEARBEARBECBcngLxapcr8dpYNgAAAABJRU5ErkJggg=="/>
+                </defs>
+              </svg>
+              <span class="hero__temp">-10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mountain">
+      <div class="container mountain__container">
+        <div class="mountain__block">
+          <div class="mountain__left">
+            <img src="../img/mountain-img-1.png" class="mountain__img">
+            <h2 class="mountain__title">
+              Следуйте указателям на вершине горы и наслаждайтесь приятным затяжным подъемом и спуском, протяженностью от 5 км.
+            </h2>
+            <div class="mountain__descr">
+              Для любителей горных и лесных прогулок, на территории и вблизи курорта расположены пешие тропы. По пути лес поменяет свой облик несколько раз от смешанного до полностью хвойного, а на вершине горы Копанец вам откроется прекрасный вид сразу на 2 хребта двух национальных парков "Таганай" и "Зюраткуль".
+            </div>
+          </div>
+          <img src="../img/mountain-img-2.png" class="mountain__center">
+          <div class="mountain__right">
+            <div class="mountain__text">
+              Маршрут "Легенда" - протяженность 5 км, расположен у подножья горы Копанец и проходит вдоль легендарной реки Ай.
+            </div>
+            <div class="mountain__text">
+              Маршрут "Горный" - протяженность 5 км, расположен на вершине горы Копанец. Чтобы попасть на этот маршрут необходимо следовать указателям и следам.
+            </div>
+          </div>
+        </div>
+        <button class="mountain__btn btn-reset">скачать карту</button>
+        <img src="../img/mountain-img-3.png" class="mountain__map">
+      </div>
+    </section>
+
+    <section class="media">
+      <ul class="media__list list-reset">
+        <li class="media__item">
+          <a href="#" class="media__link">
+            <img src="../img/vk.svg" class="media__img">
+          </a>
+        </li>
+        <li class="media__item">
+          <a href="#" class="media__link">
+            <img src="../img/youtube.svg" class="media__img">
+          </a>
+        </li>
+        <li class="media__item">
+          <a href="#" class="media__link">
+            <img src="../img/yandex.svg" class="media__img">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__top">
+        <a href="../index.html" class="footer__logo">
+          <img src="../img/logo.svg" class="footer__logo-img">
+        </a>
+        <div class="footer__contact">
+          <span>Схема проезда</span>
+          <ul class="footer__phone-list list-reset">
+            <li class="footer__phone-item">
+              <img src="../img/call.svg" class="footer__img">
+              <div class="footer__number">+79227288288</div>
+            </li>
+            <li class="footer__phone-item">
+              <img src="../img/call.svg" class="footer__img">
+              <div class="footer__number">+73513790979</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__work">
+          <div class="footer__mode">
+            Режим работы:
+          </div>
+          <div class="footer__time">
+            Пн-пт: 10.00-21.00
+          </div>
+          <div class="footer__time">
+            Сб-вс 9.00-21.00
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__mode">
+            Контакты
+          </div>
+          <div class="footer__text">
+            Всесезонный центр спорта и отдыха - находится в рекреационной зоне на границе с заповедниками «Таганай» и «Зюраткуль» всего в 30 минутах езды от Златоуста, и в 1,5 часах от Челябинска.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/index.js"></script>
+</body>
+</html>
